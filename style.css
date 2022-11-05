@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+.main{
+    
+    height: 10vh;
+    width: 100%;
+    background: rgba(8, 3, 3, 0.911);
+    display: flex;
+}
+
+.main h1{
+    margin-left: 160vh; 
+    margin-top: 10px;
+    font-size: 60px;
+    color: rgb(255, 132, 0);
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.fix{
+    position: fixed;
+    width: 100%;
+}
+.header {
+
+    display: flex;
+    height: 8.2vh;
+    background-color: rgb(176, 172, 172);
+}
+
+.header ul li a{
+    
+    color:black;   
+    padding: 1px 80px;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+.cart{
+    margin-left: 75vh;
+}
+
+#navbar{
+    display: flex;
+    letter-spacing: .099rem;
+    list-style: none;
+    margin-top: 0.7%;
+}
+
+.header ul li a:hover{
+    color:#FF8400;
+}
+#heading{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    background:orange;
+}
+.dropbtn b{
+    letter-spacing: .099rem;
+}
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px ;
+    flex-wrap: wrap;
+
+}
+#product1 .pro{
+    width: 15% ;
+    min-width: 250px;
+    padding: 10x 12px;
+    border: 5px solid #cce7d0 ;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 22px;
+    position: static;
+}
+#product1 .pro .des{
+    text-align:center;
+    padding: 2px 0;
+}
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 35px;
+
+}
+#product1 .pro .des  i{
+    font-size: 20px;
+    color: #FF8400;
+}
+#product1 .pro .des h4{
+    /* padding-top: 5px; */
+    font-size: 23px;
+    font-weight: 700;
+    color: #088178;
+}
+h4 b{
+    font-size: 35px;
+}
+#buy{
+    padding-left: 130px;
+}
+.addtocartbox {
+    border: 2px solid #e1701a;
+    background-color: #f7a440;
+    color:dark black;
+    font-weight: 600px;
+    font-size: 25px;
+    margin: 20px;   
+    padding: 5px 10px;
+    
+
+}
+button:hover{
+    box-shadow: 0 0 5px 5px #e1701a inset;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: rgb(176, 172, 172);
+  color: rgb(0, 0, 0);
+  padding: 1px 95px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #ffffff;}
+
+
+
+
